@@ -1,0 +1,41 @@
+*
+{
+  padding: 0px;
+  margin:0px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+#stage
+{
+  position: relative;
+  width: 552px;
+  height: 414px;
+  margin-left: 100px;
+  margin-top: 100px;
+  padding-left: 50px;
+}
+
+canvas
+{
+  display: block;
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  cursor: pointer;
+}
+
+@font-face
+{
+    font-family: Vanilla;
+    src: url("Vanilla.ttf");
+}
+
+p
+{
+  font-family: Vanilla;
+  font-size: 40px;
+  padding-left: 200px;
+  padding-top: 20px;
+}
